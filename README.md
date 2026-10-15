@@ -34,3 +34,21 @@ Run the automated tests from the project root:
 
 ## Author
 Project developed as part of a software development challenge.
+## Example Usage
+
+For example, if the weekly contribution is GHS 100 and the group has two members, the weekly pot will be GHS 200 once both members have paid in full.
+
+The first member to join receives the first payout. The next member receives the following week's payout.
+
+If a member has only paid part of their contribution, the tracker displays the outstanding balance and prevents the week from closing.
+
+## Validation and Testing
+
+The automated test suite covers:
+- Valid and invalid group creation
+- Duplicate and unknown members
+- Full and partial payments
+- Zero, negative, and excessive payments
+- Preventing a week from closing when contributions are outstanding
+- Payout rotation and week advancement
+- Locking membership after contributions begin
